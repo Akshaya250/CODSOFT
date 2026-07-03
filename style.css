@@ -1,11 +1,30 @@
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Arial,sans-serif;background:#ffeaf4;color:#333}
-header{background:#ffb3d9;padding:20px;text-align:center}
-nav a{margin:0 12px;text-decoration:none;color:#7a2254;font-weight:bold}
-.hero{padding:70px 20px;text-align:center;background:#ffd6ea}
-.hero h2{font-size:38px}.hero p{margin:15px auto;max-width:600px}
-.btn{display:inline-block;background:#ff5ca8;color:#fff;padding:12px 20px;border-radius:8px;text-decoration:none}
-section{max-width:1000px;margin:25px auto;background:#fff;padding:25px;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,.1)}
-.cards{display:flex;gap:20px;flex-wrap:wrap}
-.card{flex:1;min-width:180px;background:#ffd6ea;padding:20px;border-radius:10px;text-align:center}
-footer{text-align:center;background:#ffb3d9;padding:15px}
+*{
+    margin: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: purple;
+    background-color: lightblue;
+}
+
+.calculator{
+    width: 400px;
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+}
+
+body{
+    background-color:black;
+}
